@@ -47,6 +47,7 @@ rpc_accel_get_opc_assignments(struct spdk_jsonrpc_request *request,
 			/* this should never happen */
 			SPDK_ERRLOG("Invalid opcode (%d)).\n", opcode);
 			SPDK_ERRLOG("test.\n");
+			SPDK_ERRLOG("test1.\n");
 			assert(0);
 		}
 	}
